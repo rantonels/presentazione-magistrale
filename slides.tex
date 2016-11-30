@@ -1,0 +1,477 @@
+\pdfminorversion=4
+\documentclass[aspectratio=43,mathserif]{beamer}
+\usepackage{graphicx,import}
+\usepackage{calc}
+\usepackage{color}
+
+\usepackage{mathtools}  
+\mathtoolsset{showonlyrefs}  
+
+% localizzazione
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+
+\definecolor{yred}{HTML}{d40808}
+\definecolor{mblue}{HTML}{003591}
+
+
+
+%stile
+\usecolortheme{seahorse}
+\usefonttheme{default}
+\setbeamertemplate{frametitle}[default][center]
+\setbeamerfont{frametitle}{size=\LARGE}
+\setbeamerfont{title}{size=\huge}
+
+%comandi
+\newcommand{\ads}{\ensuremath{\operatorname{AdS}}}
+\newcommand{\rfour}{\ensuremath{\mathbb{R}^{1,3}}}
+\newcommand{\yfive}{{\color{yred}\ensuremath{Y_5}}}
+\newcommand{\ess}{\mathbb{S}}
+\newcommand{\ssn}{\mathcal{N}}
+\newcommand{\rrep}[1]{\mathbf{#1}}
+\newcommand{\cjrep}[1]{\overline{\rrep{#1} }}
+\newcommand{\tr}{\operatorname{Tr}}
+\newcommand{\vev}[1]{\left\langle{#1}\right\rangle}
+\newcommand{\hatt}[1]{\ensuremath{\widehat{#1}}}
+\newcommand{\tildd}[1]{\ensuremath{\widetilde{#1}}}
+\newcommand{\vol}{\ensuremath{\operatorname{vol}}}
+\newcommand{\hodge}{\ensuremath{*}}
+\renewcommand{\Re}{\ensuremath{\operatorname{Re}}}
+\renewcommand{\Im}{\ensuremath{\operatorname{Im}}}
+\newcommand{\leff}{\ensuremath{\mathcal{L}_\text{eff}}}
+\newcommand{\yfivetz}{{\color{yred}\ensuremath{Y^{2,0}}}}
+
+\title{Teorie Efficaci Olografiche:\\ Un caso di studio}
+\author{\vspace{10pt}\\\large Riccardo Antonelli }
+\date{\today}
+
+\begin{document}
+\begin{frame}
+	\maketitle
+\end{frame}
+
+\begin{frame}
+	\frametitle{QFT fortemente accoppiate}
+	Problema fondamentale:
+	\begin{center}\textbf{
+		Data teoria di campo quantistica fortemente accoppiata, $\longrightarrow$ teoria efficace di bassa energia}
+	\end{center}
+
+%	\vfill La teoria delle stringhe propone famiglie di equivalenze fra teorie di gauge in 4D e background di stringa in 10D (dualità olografiche) $\rightarrow$ sfruttabili per ricavare la teoria efficace \\
+	\vfill Teoria delle stringhe: equivalenze teorie di gauge 4D $\leftrightarrow$ background di stringa 10D (olografia)
+
+	\vfill Sfruttabili per teoria efficace?
+
+	\begin{center} $\downarrow$
+	
+		~\\
+	
+	\textbf{teorie efficaci olografiche}
+	\end{center}
+
+	
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Superstringhe IIB}
+	Teoria di gravità quantistica in 10D.
+
+	\begin{itemize}
+		\item Stringhe: oggetti perturbativi 1-dimensionali
+		\item D$p$-brane: oggetti non perturbativi $p$-dimensionali; $p$ dispari (D1,D3,D5,\ldots)
+	\end{itemize}
+
+	~\\~\\
+
+	A basse energie, le stringhe IIB $\sim$ \textbf{supergravità~IIB} (SUGRA). Teoria di campo, include:
+
+	\begin{itemize}
+		\item gravitone $g_{\mu\nu}$, assio-dilatone $\tau$ (complesso)
+		\item $k$-forme: $B_2$, $C_2$, $C_4$
+		\item + fermioni \ldots
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Olografia}
+
+	Equivalenza fra
+
+	\begin{itemize}
+		\item Teoria di gauge in 4 dimensioni
+		\item Teoria delle stringhe IIB (include gravità) su $\ads_5 \times Y^5$
+	\end{itemize}
+
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.3}
+	\import{images/}{ads5y5.pdf_tex}
+	\end{figure}
+
+	\begin{columns}
+	\begin{column}{0.5\textwidth}
+	\begin{flushright}
+	   $\ads$ (Anti-de Sitter): spaziotempo iperbolico \quad\quad
+	\end{flushright}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+\quad		\yfive: varietà compatta 5D
+	\end{column}
+	\end{columns}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Costruire dualità}
+	Si dispongono $N$ D3-brane coincidenti in un background
+
+	\begin{equation}
+		\mathbb{R}^{1,3} \times X_6
+		\label{}
+	\end{equation}
+
+	
+	$X_6$: cono con base $\yfive$: $ds_X^2 = dr^2 + r^2 {\color{yred} ds_Y^2}$
+
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.3}
+	\import{images/}{branesucono.pdf_tex}
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Costruire dualità (2)}
+
+	Due visuali equivalenti di questo sistema:
+	
+
+	\begin{enumerate}
+		\vfill\item Stringhe aperte attaccate alle D3 (teoria di gauge in 4D)
+		\vfill\item La massa delle D3 curva lo spaziotempo come
+			\begin{equation}
+				\rfour \times X_6 \longrightarrow \ads_5 \times \yfive\,,
+				\label{}
+			\end{equation}
+			
+			$\Rightarrow$ stringhe chiuse su questa geometria warped (teoria 10D)
+	\end{enumerate}
+\vfill
+	\begin{center}
+	$1. = 2.$ \quad \quad$\Longrightarrow$ \quad \quad dualità olografica
+	\end{center}
+\end{frame}
+%
+
+
+
+
+\begin{frame}
+	\frametitle{La teoria $Y^{2,0}$}
+	Cono $X^{2,0}$ sulla base $\yfivetz \sim \ess^2 \times \ess^3 / \mathbb{Z}_2$
+
+	\vfill 
+	\begin{figure}[h!]\centering
+	\def\svgscale{0.45}
+	\import{images/}{y20geometry.pdf_tex}
+	\end{figure}
+
+
+	$X^{2,0}$ è Calabi-Yau $\Longrightarrow$ teoria superconforme (SCFT) con $\ssn = 1$
+
+
+
+	\vfill Supersimmetria \textbf{minimale} (senza la singolarità conica, $\ssn = 4$): teorie meno rigide e più realistiche, dinamica pochissimo studiata
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{La teoria $Y^{2,0}$}
+	Gruppo di gauge:\vspace{-10pt}
+
+	\begin{equation}
+		U(N)_1\times U(N)_2 \times U(N)_3 \times U(N)_4
+		\label{}
+	\end{equation}
+
+	\vfill Campi di materia: $A_1, A_2, B_1, B_2, C_1, C_2, D_1, D_2$.
+
+	\vfill$A_i \in (\rrep N, \cjrep N, \rrep 1, \rrep 1)$,
+
+	$B_i \in (\rrep 1, \rrep N , \cjrep N, \rrep 1)$\ldots
+
+
+	\vfill Teoria di quiver: \vspace{-20pt}
+
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.26}
+	\import{images/}{square.pdf_tex}
+	\end{figure}
+
+	
+
+
+	+ superpotenziale (interazione fra i campi di materia):
+
+	\begin{equation}
+		W = \lambda \varepsilon^{ij} \varepsilon^{kl} \tr(A_i B_k C_j D_l)
+		\label{}
+	\end{equation}
+
+\end{frame}
+
+\begin{frame}
+
+	Deve esistere una descrizione \textbf{efficace} a bassa energia, in termini di pochi campi dinamici. Come identificarla?
+
+
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.45}
+	\import{images/}{modulispace.pdf_tex}
+	\end{figure}
+
+	Varietà di vuoti (minimi del potenziale): {\color{mblue}spazio dei moduli $\mathcal{M}$}. Le direzioni lungo $\color{mblue}\mathcal{M}$ sono parametrizzate da \textbf{moduli}. 
+	\begin{center}	
+		Moduli = campi della teoria efficace!
+	\end{center}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{$\ads_5 \times Y^{2,0}$}
+	Duale olografico: stringhe IIB sulla geometria
+
+	\begin{equation}
+		\ads_5 \times \yfivetz
+		\label{}
+	\end{equation}
+
+	Quando $N \rightarrow \infty$ e a strong coupling $\longrightarrow$ la string theory diventa la SUGRA IIB classica.\\
+
+
+	\begin{center}
+		
+		Moduli della CFT $Y^{2,0}$
+
+	$\updownarrow$
+
+	Moduli di SUGRA su $\ads_5 \times \yfivetz$
+
+	$\updownarrow$
+
+	campi dinamici della teoria efficace
+
+	\end{center}
+
+$\Rightarrow$ è possibile estrarre la Lagrangiana efficace.
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Moduli SUGRA}
+	\vspace{-5pt}
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.3}
+	\import{images/}{moduli.pdf_tex}
+	\end{figure}
+	\vspace{-10pt}
+	\begin{itemize}
+		\item Spostare le D3-brane sul cono 
+		\item Deformare la struttura K\"ahler (metrica) del cono
+		\item Accendere altri campi di SUGRA ($\tau,B_2,C_2,C_4$)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	$3N$ moduli immediati:
+	\vfill \vspace{-12pt}
+	\begin{equation}
+		\scalebox{1.5}{$z_I^i\,,$}		\label{}
+	\end{equation}
+\vfill
+	con $(i=1,2,3,\, I = 1,\ldots,N)$: 
+	
+	\vfill posizioni delle $N$ D3-brane sul cono 6-dimensionale; $3N$ campi complessi.\\
+
+
+\vfill Sono legati a valori di aspettazione (VEV) di \textbf{mesoni} della CFT.
+\end{frame}
+
+\begin{frame}
+	Troviamo due moduli della struttura K\"ahler (metrica): la singolarità conica si può ``risolvere'' in due sfere $\ess^2_L \times \ess^2_R$
+
+	~\\
+
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.5}
+	\import{images/}{risoluzione.pdf_tex}
+	\end{figure}
+
+	\vspace{-20pt}
+
+	\begin{align}
+		\hatt\rho \;\; \sim\;\;  \vol \ess^2_L + \vol \ess^2_R\\
+		\tildd\rho \;\; \sim\;\;  \vol \ess^2_L - \vol \ess^2_R
+	\end{align}
+
+	\vfill
+
+	$\Rightarrow$ Due altri campi chirali {\Large $\hatt\rho$, $\tildd\rho$} nella teoria efficace
+	
+\end{frame}
+
+\begin{frame}
+	Troviamo due deformazioni delle 2-forme $B_2$, $C_2$:
+\vfill
+\vspace{-10pt}
+	\begin{align}
+		\beta \sim \int_{\ess^2_L + \ess^2_R} \left( B_2 - \tau C_2  \right)\\
+		\lambda \sim \int_{\ess^2_L - \ess^2_R} \left(B_2 - \tau C_2\right)
+		\label{}
+	\end{align}
+
+	\vfill	
+	\begin{itemize}
+		\item	\scalebox{1.2}{$\beta$}: campo dinamico. 
+		\item $\lambda$:  parametro costante, genera una deformazione marginale.
+	\end{itemize}
+
+\vfill
+\scalebox{1.2}{$\hatt\rho$, $\tildd\rho$, $\beta$} sono altri tre campi chirali nella teoria efficace e corrispondono a VEV di \textbf{barioni}.
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Teoria efficace}
+	Ci sono $3N+3$ campi chirali $(z_I^i, \hatt\rho, \tildd\rho, \beta)$ e due parametri marginali $(\tau,\lambda)$. Calcoliamo la $\leff$ efficace:
+
+	\begin{equation}
+		\leff = - \pi \mathcal{G}^{ab} \nabla \rho_a \wedge \hodge \nabla \bar\rho_b - 2\pi \sum_I g_{i\bar\jmath} dz^i \wedge \hodge d\bar z^{\bar\jmath} - \frac{\pi\mathcal{M}}{\Im \tau} d\beta \wedge \hodge d\bar \beta
+		\label{}
+	\end{equation}
+
+	\begin{itemize}
+		\item $\mathcal{G}^{ab},\nabla,g_{i\bar\jmath},\mathcal{M}$ sono funzioni complicate di $(\hatt\rho,\tildd\rho,\beta)$ $\Longrightarrow$ forte non-linearità
+		\item $g_{i\bar\jmath}$: metrica (hermitiana) del cono risolto: $\sigma$-model delle D3-brane
+		\item $\leff$ è in realtà la parte bosonica di una Lagrangiana supersimmetrica $\ssn=1$: gli scalari $\hatt\rho,\tildd\rho,\beta$ sono accoppiati con superpartner spin-$1/2$.
+		\item Abbiamo dunque determinato la teoria efficace olografica esatta (per $N = \infty$!)
+	\end{itemize}
+
+
+
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Simmetrie}
+	Check nontriviale: simmetrie della teoria di campo devono ricomparire nella teoria efficace. 
+	\begin{itemize}
+		\vfill\item Gruppo superconforme: spontaneamente rotto in generale, verifichiamo l'invarianza di $\mathcal{L}$ sotto un'implementazione nonlineare.
+		\vfill\item La SCFT ha una simmetria di flavour $SU(2)\times SU(2)$. Nella HEFT: è il gruppo di isometria di $\ess^2 \times \ess^2$.
+		\vfill\item A basse energie il gruppo di gauge si riduce $U(N)^4 \rightarrow SU(N)^4$: cosa succede agli $U(1)$?
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{$U(1)$}
+
+	\begin{itemize}
+		\vfill\item \small$U(1)_\text{trace} = U(1)_1 + U(1)_2 + U(1)_3 + U(1)_4$\normalsize \, è disaccoppiato da tutto.
+		\vfill\item \small$U(1)_B = U(1)_1 + U(1)_3$\normalsize \, non anomalo. \textbf{Numero barionico}. Nella HEFT:
+			\begin{equation}
+				\Im \tildd \rho \rightarrow \Im \tildd \rho + \alpha
+				\label{}
+			\end{equation}
+
+		\vfill\vspace{-2pt}\item Ne rimangono due. Sono: \vspace{-4pt}
+			\begin{align}
+				U(1)_1 - U(1)_3 &&\leftrightarrow && \Im \hatt \rho \rightarrow \Im \hatt \rho + \alpha\\
+				U(1)_4 - U(1)_2 &&\leftrightarrow &&\Im\beta \rightarrow \Im\beta + \alpha
+			\end{align}
+			Simmetrie classiche della CFT e della $\leff$, ma \textbf{anomale}.\\ Interpretazione olografica: rotte da effetti nonperturbativi $\sim \exp(-N) \sim \exp(-1/g_s)$ dovuti a istantoni di teoria delle stringhe accoppiati ad $\Im\hatt\rho$, $\Im\beta$.
+
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\begin{center}
+		Grazie per l'attenzione.
+	\end{center}
+\end{frame}
+
+%\begin{frame}
+%	\frametitle{Visuale di stringhe aperte}
+%	Stringhe aperte sul volume dello stack di D3 $\Rightarrow$ teoria 4D
+%
+%	Per $E \ll (\alpha')^{-1/2}$, modi massless $\longrightarrow$ campi in una QFT.
+%	
+%
+%	~\\
+%	
+%	Includono:
+%
+%	\begin{itemize}
+%		\item Gluoni di un gruppo di gauge $G$
+%		\item Scalari carichi sotto $G$
+%	\end{itemize}
+%
+%	~\\
+%
+%	$\Rightarrow$ è una teoria di gauge su $R^{1,3}$
+%
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Visuale di stringhe chiuse}	
+%
+%	Massa delle D3-brane curva il background in
+%
+%	\begin{equation}
+%		R^{1,3} \times X_6 \longrightarrow \ads_5 \times Y_5
+%		\label{}
+%	\end{equation}
+%
+%
+%	\begin{itemize}
+%		\item $\ads_5$: spaziotempo 5D a curvatura costante negativa. Equivalente Lorentziano di $\mathbb{H}^n$
+%		\item $Y_5$: spazio ``interno'' compatto, dipende da $X_6$
+%	\end{itemize}
+%
+%\end{frame}
+%\begin{frame}
+%	\frametitle{}
+%
+%	Per $E \ll (\alpha')^{-1/2}$, modi massless $\rightarrow$ campi, includono
+%
+%	\begin{itemize}
+%		\item \textbf{gravitone} $g_{\mu\nu}$, dilatone $\phi$, Kalb-Ramond $B_{2}$
+%		\item $k$-forme di Ramond-Ramond: $C_0$, $C_2$, $C_4$
+%	\end{itemize}
+%
+%
+%	~\\
+%
+%	Supergravità di tipo IIB, teoria \textbf{gravitazionale} supersimmetrica in 10D.
+%
+%	In questo caso, basata sulla geometria warped $\ads_5 \times Y_5$
+%
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{AdS/CFT su coni}
+%
+%
+%\end{frame}
+%
+%
+%
+%\begin{frame}
+%	\frametitle{Teorie efficaci}
+%\end{frame}
+
+\end{document}
