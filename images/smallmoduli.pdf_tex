@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'modulispace.pdf' (pdf, eps, ps)
+%% Accompanies image file 'smallmoduli.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{438.76730139bp}%
+    \setlength{\unitlength}{262.35254752bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,15 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.66561112)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{modulispace.pdf}}%
-    \put(0.27979371,0.59349349){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24892267\unitlength}\raggedright \textbf{$V(\vev\op)$}\end{minipage}}}%
-    \put(0.01950224,0.04307969){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.21364891\unitlength}\centering \textbf{$\vev\op$}\end{minipage}}}%
-    \put(0.81166175,0.0504469){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.21364891\unitlength}\centering \textbf{$\vev\op$}\end{minipage}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{modulispace.pdf}}%
-    \put(0.42259737,0.41210853){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29190019\unitlength}\centering \textbf{$V=0$}\end{minipage}}}%
-    \put(0.23707987,0.33646778){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29190019\unitlength}\centering modulo\end{minipage}}}%
-    \put(0.32869591,0.1813096){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29190019\unitlength}\centering vuoto\end{minipage}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{modulispace.pdf}}%
+  \begin{picture}(1,0.53377753)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{smallmoduli.pdf}}%
+    \put(0.27290802,0.50153512){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.48462593\unitlength}\centering $\ms$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{smallmoduli.pdf}}%
+    \put(0.01480385,0.42639087){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.48462593\unitlength}\centering $z_I^i$\end{minipage}}}%
+    \put(0.19994186,0.19115669){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.48462593\unitlength}\centering $\beta$\end{minipage}}}%
+    \put(0.4754708,0.37956184){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.59897587\unitlength}\centering $\hatt\rho,\tildd\rho$\end{minipage}}}%
   \end{picture}%
 \endgroup%

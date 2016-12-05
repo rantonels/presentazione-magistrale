@@ -127,9 +127,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="248.83429"
-     inkscape:cy="777.47698"
+     inkscape:zoom="1.4"
+     inkscape:cx="232.47049"
+     inkscape:cy="801.9744"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -203,7 +203,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 482.21286,342.22996 96.14152,44.45043"
+       d="m 486.75855,344.75534 96.14152,44.45043"
        id="path6840"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -218,7 +218,7 @@
            height="42.979694"
            x="164.28572"
            y="103.07649" /></flowRegion><flowPara
-         id="flowPara7724">$V(\vev\Phi)$</flowPara></flowRoot>    <flowRoot
+         id="flowPara7724">$V(\vev\op)$</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot7726"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -230,7 +230,7 @@
            x="86.873116"
            y="395.76306"
            style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
-         id="flowPara7732">$\vev\Phi$</flowPara></flowRoot>    <flowRoot
+         id="flowPara7732">$\vev\op$</flowPara></flowRoot>    <flowRoot
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot7734"
        xml:space="preserve"
@@ -242,7 +242,7 @@
            width="117.1777"
            id="rect7738"
            style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
-         id="flowPara7740">$\vev\Phi$</flowPara></flowRoot>    <circle
+         id="flowPara7740">$\vev\op$</flowPara></flowRoot>    <circle
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path7742"
        cx="252.85716"

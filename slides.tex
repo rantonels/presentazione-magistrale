@@ -1,6 +1,7 @@
 \pdfminorversion=4
 \documentclass[aspectratio=43,mathserif]{beamer}
 \usepackage{graphicx,import}
+\usepackage{tikz}
 \usepackage{calc}
 \usepackage{color}
 
@@ -44,6 +45,7 @@
 \newcommand{\leff}{\ensuremath{\mathcal{L}_\text{eff}}}
 \newcommand{\yfivetz}{{\color{yred}\ensuremath{Y^{2,0}}}}
 \newcommand{\ms}{{\color{mblue}\mathcal{M}}}
+\newcommand{\op}{\mathcal{O}}
 
 \title{Teorie Efficaci Olografiche:\\ Un caso di studio}
 \author{\vspace{10pt}\\\large Riccardo Antonelli }
@@ -289,28 +291,46 @@
 		\label{}
 	\end{equation}
 
+	\begin{columns}
+		\begin{column}{0.75\textwidth}
 
-	\vfill Campi di materia: $A_1, A_2, B_1, B_2, C_1, C_2, D_1, D_2$.
+	Campi di materia: $A_1, A_2, B_1, B_2, C_1, C_2, D_1, D_2$
 
-	\vfill$A_i \in (\rrep N, \cjrep N, \rrep 1, \rrep 1)\,,\; B_i \in (\rrep 1, \rrep N , \cjrep N, \rrep 1)\,, \ldots$
+	\vspace{10pt}
 
+	$A_i \in (\rrep N, \cjrep N, \rrep 1, \rrep 1)$ \quad $B_i \in (\rrep 1, \rrep N , \cjrep N, \rrep 1) $\\
+	$C_i \in (\rrep 1, \rrep 1, \rrep N, \cjrep N)$ \quad $D_i \in (\cjrep N, \rrep 1, \rrep 1, \rrep N )$\\
 
-	\vfill Teoria di quiver: \vspace{-20pt}
+	\vspace{10pt}
 
+	+ superpotenziale (interazione fra i campi):
+
+	\begin{equation}
+		W = \lambda \varepsilon^{ij} \varepsilon^{kl} \tr(A_i B_k C_j D_l)
+		\label{}
+	\end{equation}
+
+		\end{column}
+		\begin{column}{0.25\textwidth}
+	\vfill Teoria di quiver: 
 	\begin{figure}[h!]\centering
 		\def\svgscale{0.26}
 		\import{images/}{square.pdf_tex}
 	\end{figure}
 
 
+	\end{column}
+\end{columns}
+
+\vspace{10pt}
+\vfill
+
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.45}
+		\import{images/}{rgflow.pdf_tex}
+	\end{figure}
 
 
-	+ superpotenziale (interazione fra i campi di materia):
-
-	\begin{equation}
-		W = \lambda \varepsilon^{ij} \varepsilon^{kl} \tr(A_i B_k C_j D_l)
-		\label{}
-	\end{equation}
 
 \end{frame}
 
@@ -347,11 +367,10 @@
 	\vfill
 
 	\begin{center}
-		v	
-		
+		Moduli teoria di campo $\leftrightarrow$ moduli SUGRA IIB	
 	\end{center}
 
-	\vfill $\Rightarrow$ è possibile estrarre la Lagrangiana efficace.
+	\vfill Teoria classica $\Rightarrow$ è possibile estrarre la dinamica dei moduli
 
 \end{frame}
 
@@ -382,20 +401,20 @@
 	\vspace{-20pt}
 
 	\begin{columns}
-		\begin{column}{0.5\textwidth}
+		\begin{column}{0.48\textwidth}
 			\begin{center}	
 				$3N$ moduli {\Large $z_I^i$}, (${\scriptstyle i=1,2,3; \,I = 1,\ldots,N}$)
 			\end{center}
 
-			\vfill VEV di \textbf{mesoni}:
+			\vfill {\centering VEV di \textbf{mesoni}:\par}
 	
 	\begin{equation}
-		\tr \left( A_i B_j C_k D_l \right)
+		\langle\tr \left( A_i B_j C_k D_l \right)\rangle
 		\label{}
 	\end{equation}
 
 		\end{column}
-		\begin{column}{0.5\textwidth}
+		\begin{column}{0.52\textwidth}
 
 			\vspace{-13pt}
 			$2$ moduli $\hatt\rho$, $\tildd\rho$ deformazioni della metrica\\
@@ -407,8 +426,7 @@
 
 			\vspace{-13pt}
 	\begin{equation}
-		\varepsilon_{a_1 a_2 \ldots a_N} \varepsilon^{b_1 b_2 \ldots b_N} \underbrace{A^{a_1}_{\;b_1} A^{a_2}_{\;b_2} \ldots A^{a_N}_{\;b_N} }_{N}
-		\label{}
+	\langle	\varepsilon_{a_1 a_2 \ldots a_N} \varepsilon^{b_1 b_2 \ldots b_N} \underbrace{A^{a_1}_{\;b_1} A^{a_2}_{\;b_2} \ldots A^{a_N}_{\;b_N} }_{N}\rangle
 	\end{equation}
 
 
@@ -451,35 +469,32 @@
 			\end{equation}
 		\end{column}
 	\end{columns}
-
-%	\vfill
-%	\vspace{15pt}
-%
-%	$\Longrightarrow$ $3$ altri campi {\Large $\hatt\rho$, $\tildd\rho$, $\beta$} nella teoria efficace. VEV di
-%
-%	\begin{equation}
-%		\varepsilon_{abc\ldots} \varepsilon^{pqr\ldots} \underbrace{A^a_{\;p} A^b_{\;q} A^c_{\;r} \ldots}_{N}\; \leftarrow \text{\textbf{barioni}}
-%		\label{}
-%	\end{equation}
-
 \end{frame}
 
 
 
 \begin{frame}
+\begin{tikzpicture}[remember picture,overlay]
+	\node[xshift=-3cm,yshift=-2.4cm] at (current page.north east) {
+		\def\svgscale{0.4}
+		\import{images/}{smallmoduli.pdf_tex}
+	};
+\end{tikzpicture}
 	\frametitle{Teoria efficace}
-	Ci sono $3N+3$ campi $\varphi^m = (z_I^i, \hatt\rho, \tildd\rho, \beta)$. Calcoliamo la $\leff$ efficace:
-
+	$3N+3$ campi $\varphi^m = (z_I^i, \hatt\rho, \tildd\rho, \beta)$\\
+	\vfill Calcoliamo $\leff$:
+	\vspace{10pt}
 	\begin{align}
 		\begin{split}
-			\leff &= - \pi \mathcal{G}^{ab} \nabla_\mu \rho_a \nabla^\mu \bar\rho_b - 2\pi \sum_{I\in \text{D3}} g_{i\bar\jmath}\, \partial_\mu z_I^i \partial^\mu \bar z_I^{\bar\jmath} - \frac{\pi\mathcal{M}}{\Im \tau} \partial_\mu \beta \,\partial^\mu \bar\beta\\
+			\leff(\varphi) &= - \pi \mathcal{G}^{ab} \nabla_\mu \rho_a \nabla^\mu \bar\rho_b - 2\pi \sum_{I\in \text{D3}} g_{i\bar\jmath}\, \partial_\mu z_I^i \partial^\mu \bar z_I^{\bar\jmath} - \frac{\pi\mathcal{M}}{\Im \tau} \partial_\mu \beta \,\partial^\mu \bar\beta\\
 		&+ \left( \text{fermioni}\ldots \right)
 	\end{split}
 	\end{align}
+	\vspace{-10pt}
 
 	\begin{itemize}
-		\item Necessaria $g_{i\bar\jmath}$ in coordinate complesse (metrica del cono risolto).
-		\item $\mathcal{G}^{ab},\nabla_\mu,g_{i\bar\jmath},\mathcal{M}$ funzioni complicate di $(\hatt\rho,\tildd\rho,\beta)$ $\Longrightarrow$ forte non-linearità
+		\item Necessaria $g_{i\bar\jmath}$ esplicita (metrica del cono risolto).
+		\vfill \item $\mathcal{G}^{ab},\nabla_\mu,g_{i\bar\jmath},\mathcal{M}$ funzioni complicate di $(\hatt\rho,\tildd\rho,\beta)$ $\Longrightarrow$ forte non-linearità
 %		\item $g_{i\bar\jmath}$: metrica (hermitiana) del cono risolto: $\sigma$-model delle D3-brane
 %		\item $\leff$ è in realtà la parte bosonica di una Lagrangiana supersimmetrica $\ssn=1$: scalari $\hatt\rho,\tildd\rho,\beta$ accoppiati con superpartner spin-$1/2$.
 	\end{itemize}
@@ -523,76 +538,22 @@
 
 \begin{frame}
 	\begin{center}
+		\frametitle{Conclusioni}
+		
+		Abbiamo dunque costruito la teoria efficace esplicita per un modello \textbf{fortemente accoppiato} e con supersimmetria \textbf{minimale} (intrattabile a livello della teoria di campo).
+	\end{center}
+
+		Possibili sviluppi:
+\vfill
+		\begin{itemize}
+			\item Generalizzare $Y^{2,0} \rightarrow Y^{p,q}$
+\vfill			\item Espansione perturbativa nei moduli
+\vfill	\item Analisi contributi nonperturbativi di stringa
+		\end{itemize}
+\vfill
+	\begin{center}
 		Grazie per l'attenzione.
 	\end{center}
 \end{frame}
-
-%\begin{frame}
-%	\frametitle{Visuale di stringhe aperte}
-%	Stringhe aperte sul volume dello stack di D3 $\Rightarrow$ teoria 4d
-%
-%	Per $E \ll (\alpha')^{-1/2}$, modi massless $\longrightarrow$ campi in una QFT.
-%	
-%
-%	~\\
-%	
-%	Includono:
-%
-%	\begin{itemize}
-%		\item Gluoni di un gruppo di gauge $G$
-%		\item Scalari carichi sotto $G$
-%	\end{itemize}
-%
-%	~\\
-%
-%	$\Rightarrow$ è una teoria di gauge su $R^{1,3}$
-%
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{Visuale di stringhe chiuse}	
-%
-%	Massa delle D3-brane curva il background in
-%
-%	\begin{equation}
-%		R^{1,3} \times X_6 \longrightarrow \ads_5 \times Y_5
-%		\label{}
-%	\end{equation}
-%
-%
-%	\begin{itemize}
-%		\item $\ads_5$: spaziotempo 5d a curvatura costante negativa. Equivalente Lorentziano di $\mathbb{H}^n$
-%		\item $Y_5$: spazio ``interno'' compatto, dipende da $X_6$
-%	\end{itemize}
-%
-%\end{frame}
-%\begin{frame}
-%	\frametitle{}
-%
-%	Per $E \ll (\alpha')^{-1/2}$, modi massless $\rightarrow$ campi, includono
-%
-%	\begin{itemize}
-%		\item \textbf{gravitone} $g_{\mu\nu}$, dilatone $\phi$, Kalb-Ramond $B_{2}$
-%	\end{itemize}
-%
-%
-%	~\\
-%
-%	Supergravità di tipo IIB, teoria \textbf{gravitazionale} supersimmetrica in 10d.
-%
-%	In questo caso, basata sulla geometria warped $\ads_5 \times Y_5$
-%
-%\end{frame}
-%
-%\begin{frame}
-%
-%
-%\end{frame}
-%
-%
-%
-%\begin{frame}
-%	\frametitle{Teorie efficaci}
-%\end{frame}
 
 \end{document}
