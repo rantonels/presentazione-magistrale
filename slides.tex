@@ -43,6 +43,7 @@
 \renewcommand{\Im}{\ensuremath{\operatorname{Im}}}
 \newcommand{\leff}{\ensuremath{\mathcal{L}_\text{eff}}}
 \newcommand{\yfivetz}{{\color{yred}\ensuremath{Y^{2,0}}}}
+\newcommand{\ms}{{\color{mblue}\mathcal{M}}}
 
 \title{Teorie Efficaci Olografiche:\\ Un caso di studio}
 \author{\vspace{10pt}\\\large Riccardo Antonelli }
@@ -60,10 +61,9 @@
 		Data teoria di campo quantistica fortemente accoppiata, $\longrightarrow$ teoria efficace di bassa energia}
 	\end{center}
 
-%	\vfill La teoria delle stringhe propone famiglie di equivalenze fra teorie di gauge in 4d e background di stringa in 10d (dualità olografiche) $\rightarrow$ sfruttabili per ricavare la teoria efficace \\
 	\vfill Teoria delle stringhe: equivalenze teorie di gauge 4d $\leftrightarrow$ background di stringa 10d (olografia)
 
-	\vfill Sfruttabili per teoria efficace?
+	\vfill \begin{center}Sfruttabili per teoria efficace?\end{center}
 
 	\begin{center} $\downarrow$
 
@@ -90,7 +90,7 @@
 	A basse energie, le stringhe IIB $\sim$ \textbf{supergravità~IIB} (SUGRA). Teoria di campo, include:
 
 	\begin{itemize}
-		\item gravitone $g_{\mu\nu}$, assio-dilatone $\tau$ (complesso)
+		\item gravitone $g_{\mu\nu}$, assio-dilatone $\tau$ \quad \quad (${g_s\, = \vev{\Im \tau}^{-1}}$)
 		\item $k$-forme: $B_2$, $C_2$, $C_4$ \quad \quad (${\scriptstyle B_2 = \frac{1}{2} B_{\mu\nu} dx^\mu \wedge dx^\nu}$, etc)
 		\item + fermioni \ldots
 	\end{itemize}
@@ -102,7 +102,7 @@
 	Equivalenza fra:
 
 	\begin{itemize}
-		\item Teoria di gauge in 4 dimensioni
+		\item Teoria di \textbf{gauge} in 4 dimensioni \textbf{conforme}
 		\item Teoria delle stringhe IIB (include gravità) su $\ads_5 \times Y^5$
 	\end{itemize}
 
@@ -145,26 +145,42 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Costruire dualità (2)}
+	\only<1>{\frametitle{Costruire dualità (2)}}
+	\only<2>{\frametitle{Large $N$, strong-coupling} }
 
-	Due visuali equivalenti di questo sistema:
+	\only<1>{Due visuali equivalenti di questo sistema:}
 
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 
+			\only<2>{\vspace{-20pt}}
 
 	\begin{figure}[h!]\centering
 		\def\svgscale{0.25}
 		\import{images/}{firstpicture.pdf_tex}
 	\end{figure}
 
-	Stringhe aperte attaccate alle D3:
+\only<1>{	Stringhe aperte attaccate alle D3:
 	
 	\vfill Teoria di \textbf{gauge} 4d
 	
 	\vfill $G = SU(N)\times SU(N) \times \ldots$
 
 	\begin{center} $S = -\frac{1}{4}\int d^4 x \tr F^2 + \ldots $ \end{center}
+
+
+}
+
+\only<2>{
+	\begin{center}
+	$N \rightarrow \infty$,\\
+	\vspace{15pt}
+	$\lambda := N g_{YM}^2 \rightarrow \infty\,.$\\
+	\vspace{15pt}
+	Teoria quantistica fort. acc.
+\end{center}
+
+}
 
 		\end{column}
 
@@ -175,6 +191,9 @@
 		\import{images/}{secondpicture.pdf_tex}
 	\end{figure}
 	\vspace{-10pt}
+
+	\only<1>{
+
 	Massa D3 curva spaziotempo:
 	\vspace{-15pt}
 	
@@ -184,6 +203,20 @@
 			\end{equation}
 
 			\begin{center}	$ S = 	- \int d^{10}x \sqrt{-g} R + \ldots $ \end{center}
+
+	}
+
+	\only<2>{
+		\vspace{-30pt}
+	\begin{center}
+		$g_s \ll 1$ (``$\hbar \rightarrow 0$\,'')\\
+		\vspace{15pt}
+		$E \ll 1/l_s$\\
+		\vspace{15pt}
+
+		stringhe $\rightarrow$ SUGRA IIB \textbf{classica}
+	\end{center}
+	}
 
 	\end{column}
 \end{columns}
@@ -205,25 +238,25 @@
 \end{frame}
 %
 
-\begin{frame}
-	\frametitle{Large $N$, strong-coupling}
-
-	Si dimostra:
-
-	\vfill
-	\begin{center}
-		
-	Quando in 4d $N\rightarrow \infty$, $\lambda \rightarrow \infty$, 
-	\end{center}
-	
-	\vfill allora in 10d
-
-	\vfill 
-	\begin{center}
-		Stringhe IIB $\rightarrow$ supergravità IIB \textbf{classica} ($\hbar \rightarrow 0$)
-	\end{center}
-	\vfill \[ (\lambda := N^2 g) \]
-\end{frame}
+%\begin{frame}
+%	\frametitle{Large $N$, strong-coupling}
+%
+%	Si dimostra:
+%
+%	\vfill
+%	\begin{center}
+%		
+%	Quando in 4d $N\rightarrow \infty$, $\lambda \rightarrow \infty$, 
+%	\end{center}
+%	
+%	\vfill allora in 10d
+%
+%	\vfill 
+%	\begin{center}
+%		Stringhe IIB $\rightarrow$ supergravità IIB \textbf{classica} ($\hbar \rightarrow 0$)
+%	\end{center}
+%	\vfill \[ (\lambda := N^2 g) \]
+%\end{frame}
 
 
 
@@ -301,27 +334,21 @@
 
 \begin{frame}
 	\frametitle{$ \ads_5 \times Y^{2,0} $}
+
+	\vspace{-20pt}
+	\begin{figure}[h!]\centering
+		\def\svgscale{0.5}
+		\import{images/}{points.pdf_tex}
+	\end{figure}
+
+
 	\vspace{-30pt}
 	
-	\begin{align}
-		\text{Vuoto Superconforme} \quad & \xleftrightarrow{olografia}{} \quad  \ads_5 \times Y^{2,0}  \\
-		\mathcal{M}_{QFT} \quad &\xleftrightarrow{olografia}{}\quad  \mathcal{M}_{\ads_5 \times Y^{2,0}}
-	\end{align}
-
 	\vfill
 
 	\begin{center}
-
-		Moduli della CFT $Y^{2,0}$
-
-		$\updownarrow$
-
-		Moduli di SUGRA su $\ads_5 \times \yfivetz$
-
-		$\updownarrow$
-
-		campi dinamici della teoria efficace
-
+		v	
+		
 	\end{center}
 
 	\vfill $\Rightarrow$ è possibile estrarre la Lagrangiana efficace.
@@ -344,38 +371,49 @@
 \end{frame}
 
 \begin{frame}
-	$3N$ moduli immediati:
+
+	\vspace{-12pt}
+
+	\begin{figure}[h!]\centering
+	\def\svgscale{0.6}
+	\import{images/}{sposting.pdf_tex}
+	\end{figure}
+
+	\vspace{-20pt}
 
 	\begin{columns}
-		\begin{column}{0.4\textwidth}
+		\begin{column}{0.5\textwidth}
 			\begin{center}	
-				\scalebox{1.5}{$z_I^i$}		
-
-				\vspace{10pt}
-				$i=1,2,3,$\\ $I = 1,\ldots,N$
+				$3N$ moduli {\Large $z_I^i$}, (${\scriptstyle i=1,2,3; \,I = 1,\ldots,N}$)
 			\end{center}
 
-		\end{column}
-		\begin{column}{0.6\textwidth}
-
-			\begin{figure}[h!]\centering
-				\def\svgscale{0.9}
-				\import{images/}{sposting.pdf_tex}
-			\end{figure}
-
-		\end{column}\end{columns}
-
-	\vfill \vspace{-12pt}
-
-	\vfill posizioni delle $N$ D3-brane sul cono 6d $\rightarrow$ $3N$ campi complessi.\\
-
-
-	\vfill Legati a valori di aspettazione (VEV) di operatori del tipo:
-
+			\vfill VEV di \textbf{mesoni}:
+	
 	\begin{equation}
-		\tr \left( A_i B_j C_k D_l \right)\,, \;\leftarrow \text{\textbf{mesoni}}
+		\tr \left( A_i B_j C_k D_l \right)
 		\label{}
 	\end{equation}
+
+		\end{column}
+		\begin{column}{0.5\textwidth}
+
+			\vspace{-13pt}
+			$2$ moduli $\hatt\rho$, $\tildd\rho$ deformazioni della metrica\\
+			
+			\vspace{10pt} $1$ modulo $\beta$ per $C_2$, $B_2$
+
+
+			\vspace{10pt}VEV di \textbf{barioni}:
+
+			\vspace{-13pt}
+	\begin{equation}
+		\varepsilon_{a_1 a_2 \ldots a_N} \varepsilon^{b_1 b_2 \ldots b_N} \underbrace{A^{a_1}_{\;b_1} A^{a_2}_{\;b_2} \ldots A^{a_N}_{\;b_N} }_{N}
+		\label{}
+	\end{equation}
+
+
+
+		\end{column}\end{columns}
 
 
 
@@ -383,7 +421,7 @@
 
 \begin{frame}
 	\begin{itemize}
-		\item	$2$ moduli struttura K\"ahler (metrica): la singolarità conica si può ``risolvere'' in due sfere $\ess^2_L \times \ess^2_R$\\
+		\item	$2$ moduli metrica (struttura K\"ahler): la singolarità conica si può ``risolvere'' in due sfere $\ess^2_L \times \ess^2_R$\\
 			\vfill
 		\item	$1$ modulo per 2-forme $B_2$, $C_2$
 	\end{itemize}
@@ -414,53 +452,36 @@
 		\end{column}
 	\end{columns}
 
-	\vfill
-	\vspace{15pt}
-
-	$\Longrightarrow$ $3$ altri campi chirali {\Large $\hatt\rho$, $\tildd\rho$, $\beta$} nella teoria efficace. VEV di
-
-	\begin{equation}
-		\varepsilon_{abc\ldots} \varepsilon^{pqr\ldots} \underbrace{A^a_{\;p} A^b_{\;q} A^c_{\;r} \ldots}_{N}\; \leftarrow \text{\textbf{barioni}}
-		\label{}
-	\end{equation}
+%	\vfill
+%	\vspace{15pt}
+%
+%	$\Longrightarrow$ $3$ altri campi {\Large $\hatt\rho$, $\tildd\rho$, $\beta$} nella teoria efficace. VEV di
+%
+%	\begin{equation}
+%		\varepsilon_{abc\ldots} \varepsilon^{pqr\ldots} \underbrace{A^a_{\;p} A^b_{\;q} A^c_{\;r} \ldots}_{N}\; \leftarrow \text{\textbf{barioni}}
+%		\label{}
+%	\end{equation}
 
 \end{frame}
 
-%\begin{frame}
-%	Troviamo due deformazioni delle 2-forme $B_2$, $C_2$:
-%\vfill
-%\vspace{-10pt}
-%	\begin{align}
-%		\beta \sim \int_{\ess^2_L + \ess^2_R} \left( B_2 - \tau C_2  \right)\\
-%		\lambda \sim \int_{\ess^2_L - \ess^2_R} \left(B_2 - \tau C_2\right)
-%		\label{}
-%	\end{align}
-%
-%	\vfill	
-%	\begin{itemize}
-%		\item	\scalebox{1.2}{$\beta$}: campo dinamico. 
-%		\item $\lambda$:  parametro costante, genera una deformazione marginale.
-%	\end{itemize}
-%
-%\vfill
-%\scalebox{1.2}{$\hatt\rho$, $\tildd\rho$, $\beta$} sono altri tre campi chirali nella teoria efficace e corrispondono a VEV di \textbf{barioni}.
-%\end{frame}
 
 
 \begin{frame}
 	\frametitle{Teoria efficace}
-	Ci sono $3N+3$ campi chirali $(z_I^i, \hatt\rho, \tildd\rho, \beta)$. Calcoliamo la $\leff$ efficace:
+	Ci sono $3N+3$ campi $\varphi^m = (z_I^i, \hatt\rho, \tildd\rho, \beta)$. Calcoliamo la $\leff$ efficace:
 
-	\begin{equation}
-		\leff = - \pi \mathcal{G}^{ab} \nabla_\mu \rho_a \nabla^\mu \bar\rho_b - 2\pi \sum_I g_{i\bar\jmath}\, \partial_\mu z^i \partial^\mu \bar z^{\bar\jmath} - \frac{\pi\mathcal{M}}{\Im \tau} \partial_\mu \beta \,\partial^\mu \bar\beta
-		\label{}
-	\end{equation}
+	\begin{align}
+		\begin{split}
+			\leff &= - \pi \mathcal{G}^{ab} \nabla_\mu \rho_a \nabla^\mu \bar\rho_b - 2\pi \sum_{I\in \text{D3}} g_{i\bar\jmath}\, \partial_\mu z_I^i \partial^\mu \bar z_I^{\bar\jmath} - \frac{\pi\mathcal{M}}{\Im \tau} \partial_\mu \beta \,\partial^\mu \bar\beta\\
+		&+ \left( \text{fermioni}\ldots \right)
+	\end{split}
+	\end{align}
 
 	\begin{itemize}
 		\item Necessaria $g_{i\bar\jmath}$ in coordinate complesse (metrica del cono risolto).
 		\item $\mathcal{G}^{ab},\nabla_\mu,g_{i\bar\jmath},\mathcal{M}$ funzioni complicate di $(\hatt\rho,\tildd\rho,\beta)$ $\Longrightarrow$ forte non-linearità
 %		\item $g_{i\bar\jmath}$: metrica (hermitiana) del cono risolto: $\sigma$-model delle D3-brane
-		\item $\leff$ è in realtà la parte bosonica di una Lagrangiana supersimmetrica $\ssn=1$: scalari $\hatt\rho,\tildd\rho,\beta$ accoppiati con superpartner spin-$1/2$.
+%		\item $\leff$ è in realtà la parte bosonica di una Lagrangiana supersimmetrica $\ssn=1$: scalari $\hatt\rho,\tildd\rho,\beta$ accoppiati con superpartner spin-$1/2$.
 	\end{itemize}
 
 

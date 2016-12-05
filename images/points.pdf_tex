@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'sposting.pdf' (pdf, eps, ps)
+%% Accompanies image file 'points.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{460.68772507bp}%
+    \setlength{\unitlength}{549.52868711bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.55703458)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{sposting.pdf}}%
-    \put(-0.09905969,0.2928931){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.42590068\unitlength}\centering \textbf{$z^i$}\end{minipage}}}%
-    \put(0.00409637,0.11678987){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.42590068\unitlength}\centering \textbf{$X_6$}\end{minipage}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{sposting.pdf}}%
-    \put(0.49291845,0.23429808){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25303786\unitlength}\centering {\Large$\ms$}\end{minipage}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{sposting.pdf}}%
-    \put(0.44020224,0.42655722){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25303786\unitlength}\centering $z_I^i$\end{minipage}}}%
-    \put(0.58003857,0.30442019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35226838\unitlength}\centering $\hatt\rho, \tildd\rho$\end{minipage}}}%
-    \put(0.70395963,0.41332352){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25303786\unitlength}\centering $\beta$\end{minipage}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{sposting.pdf}}%
+  \begin{picture}(1,0.49314138)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{points.pdf}}%
+    \put(0.1802604,0.14757995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering ${\Large\ms}$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{points.pdf}}%
+    \put(0.23608433,0.40496607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering $\vev{\mathcal{O}} = 0$\end{minipage}}}%
+    \put(0.13642087,0.29419045){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering $\vev{\mathcal{O}} \neq 0$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{points.pdf}}%
+    \put(0.68747979,0.37964354){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30468466\unitlength}\centering $\ads_5 \times \yfive$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{points.pdf}}%
+    \put(0.63931852,0.45611334){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3046847\unitlength}\centering IIB su:\end{minipage}}}%
+    \put(0.61946578,0.23185097){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3046847\unitlength}\centering IIB su:\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{points.pdf}}%
   \end{picture}%
 \endgroup%

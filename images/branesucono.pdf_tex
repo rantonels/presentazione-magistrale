@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{691.93162675bp}%
+    \setlength{\unitlength}{712.00836215bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.66281684)%
+  \begin{picture}(1,0.64412717)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{branesucono.pdf}}%
-    \put(0.762205,0.61880312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26628615\unitlength}\raggedright \textbf{$Y_5$}\end{minipage}}}%
-    \put(0.7856553,0.32959364){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15299773\unitlength}\raggedright \textbf{$X_6$}\end{minipage}}}%
+    \put(0.91406555,0.31082824){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25877759\unitlength}\raggedright \textbf{$Y_5$}\end{minipage}}}%
+    \put(0.7346098,0.31869487){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1486836\unitlength}\raggedright \textbf{$X_6$}\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{branesucono.pdf}}%
-    \put(0.40802167,0.03080117){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26628615\unitlength}\centering \textbf{D3 brane}\end{minipage}}}%
-    \put(0.07344991,0.21909392){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26628615\unitlength}\raggedright \textbf{$\rfour$}\end{minipage}}}%
+    \put(0.42113433,0.55810274){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25877759\unitlength}\centering \textbf{D3 brane}\end{minipage}}}%
+    \put(0.07137882,0.21291606){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25877759\unitlength}\raggedright \textbf{$\rfour$}\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{branesucono.pdf}}%
-    \put(0.8219925,0.18176731){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15299773\unitlength}\centering \textbf{$r$}\end{minipage}}}%
+    \put(0.55459464,0.1819747){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1486836\unitlength}\centering \textbf{$r$}\end{minipage}}}%
   \end{picture}%
 \endgroup%

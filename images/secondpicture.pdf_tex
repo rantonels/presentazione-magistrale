@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{260.80394876bp}%
+    \setlength{\unitlength}{373.18881302bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,11 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.11259939)%
+  \begin{picture}(1,0.84585916)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{secondpicture.pdf}}%
-    \put(0.32971206,0.86387763){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2695765\unitlength}\raggedright \end{minipage}}}%
-    \put(0.47028176,0.80429137){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$r,x^\mu$}}}%
-    \put(0.47544458,0.94756165){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ads_5$}}}%
-    \put(0.71006532,0.52115296){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\yfive$}}}%
+    \put(0.31403875,0.60426018){\color[rgb]{0,0,0}\rotatebox{-180}{\makebox(0,0)[lt]{\begin{minipage}{0.18839422\unitlength}\raggedright \end{minipage}}}}%
+    \put(0.69019442,0.53555739){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$r$}}}%
+    \put(0.42672594,0.68442458){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\ads_5$}}}%
+    \put(0.29854768,0.38311504){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\yfive$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{secondpicture.pdf}}%
+    \put(0.95295949,0.38311504){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\yfive$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{secondpicture.pdf}}%
+    \put(0.14421341,0.51259558){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x^\mu$}}}%
+    \put(0.11614896,0.61975072){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\rfour$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{secondpicture.pdf}}%
   \end{picture}%
 \endgroup%
