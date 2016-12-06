@@ -48,17 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.49314138)%
+  \begin{picture}(1,0.48222293)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{points.pdf}}%
-    \put(0.1802604,0.14757995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering ${\Large\ms}$\end{minipage}}}%
+    \put(0.1802604,0.13666151){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering ${\Large\ms}$\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{points.pdf}}%
-    \put(0.23608433,0.40496607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering $\vev{\mathcal{O}} = 0$\end{minipage}}}%
-    \put(0.13642087,0.29419045){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering $\vev{\mathcal{O}} \neq 0$\end{minipage}}}%
+    \put(0.23608433,0.39404763){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering $\vev{\mathcal{O}} = 0$\end{minipage}}}%
+    \put(0.13642087,0.283272){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28161473\unitlength}\centering $\vev{\mathcal{O}} \neq 0$\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{points.pdf}}%
-    \put(0.68747979,0.37964354){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30468466\unitlength}\centering $\ads_5 \times \yfive$\end{minipage}}}%
+    \put(0.68747979,0.36872509){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30468466\unitlength}\centering $\ads_5 \times \yfive$\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{points.pdf}}%
-    \put(0.63931852,0.45611334){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3046847\unitlength}\centering IIB su:\end{minipage}}}%
-    \put(0.61946578,0.23185097){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3046847\unitlength}\centering IIB su:\end{minipage}}}%
+    \put(0.63931852,0.4451949){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3046847\unitlength}\centering IIB su:\end{minipage}}}%
+    \put(0.58255103,0.21276152){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3046847\unitlength}\centering IIB su:\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{points.pdf}}%
   \end{picture}%
 \endgroup%

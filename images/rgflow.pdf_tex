@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{378.2442181bp}%
+    \setlength{\unitlength}{413.1013613bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,13 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.13931689)%
+  \begin{picture}(1,0.13487676)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{rgflow.pdf}}%
-    \put(-0.17047264,0.14746079){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39311758\unitlength}\centering UV\end{minipage}}}%
-    \put(-0.01301203,0.14404131){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.18597122,0.15066555){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39311758\unitlength}\centering IR\end{minipage}}}%
-    \put(0.53846098,0.1322905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.48926051\unitlength}\centering SCFT ($\beta = 0$)\end{minipage}}}%
-    \put(0.32544667,0.05003493){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.9198213\unitlength}\centering Fortemente accoppiata\end{minipage}}}%
+    \put(-0.15608831,0.14233348){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35994665\unitlength}\centering UV\end{minipage}}}%
+    \put(0.07246507,0.13920253){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.25465828,0.14526783){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35994665\unitlength}\centering IR\end{minipage}}}%
+    \put(0.57740525,0.12844325){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44797713\unitlength}\centering SCFT ($\beta = 0$)\end{minipage}}}%
+    \put(0.38236491,0.05312833){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.84220756\unitlength}\centering Fortemente accoppiata\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{rgflow.pdf}}%
+    \put(0.04171858,0.0385886){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35994665\unitlength}\centering RG-flow\end{minipage}}}%
   \end{picture}%
 \endgroup%
