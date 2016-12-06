@@ -5,6 +5,10 @@
 \usepackage{calc}
 \usepackage{color}
 
+\usepackage[backend=bibtex,style=authortitle]{biblatex}
+\bibliography{bibliography}
+
+
 \usepackage{mathtools}  
 \mathtoolsset{showonlyrefs}  
 
@@ -22,6 +26,7 @@
 \usecolortheme{seahorse}
 \usefonttheme{default}
 \setbeamertemplate{frametitle}[default][center]
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols
 \setbeamerfont{frametitle}{size=\LARGE}
 \setbeamerfont{title}{size=\huge}
 
@@ -65,7 +70,7 @@
 
 	\vfill Teoria delle stringhe: equivalenze teorie di gauge 4d $\leftrightarrow$ background di stringa 10d (olografia)
 
-	\vfill \begin{center}Sfruttabili per teoria efficace?\end{center}
+	\vfill \begin{center}Sfruttabili per teoria efficace? \footcite{MZ}\end{center}
 
 	\begin{center} $\downarrow$
 
@@ -129,7 +134,7 @@
 
 \begin{frame}
 	\frametitle{Costruire dualità}
-	Si dispongono $N$ D3-brane coincidenti in un background
+	Si dispongono $N$ D3-brane coincidenti in un background \footcite{Maldacena}
 
 	\begin{equation}
 		\mathbb{R}^{1,3} \times X_6
@@ -265,7 +270,7 @@
 
 \begin{frame}
 	\frametitle{La teoria $Y^{2,0}$}
-	Cono $X^{2,0}$ sulla base $\yfivetz \sim \ess^2 \times \ess^3 / \mathbb{Z}_2$
+	Cono $X^{2,0}$ sulla base\footcite{Morrisonn} $\yfivetz \sim \ess^2 \times \ess^3 / \mathbb{Z}_2$
 
 	\vfill 
 	\begin{figure}[h!]\centering
@@ -471,7 +476,32 @@
 	\end{columns}
 \end{frame}
 
+\begin{frame}
 
+		\vspace{-10pt}
+		\begin{figure}[h!]\centering
+		\def\svgscale{0.25}
+		\import{images/}{egg.pdf_tex}
+		\end{figure}
+
+		\vspace{-10pt}
+		Compattificazione di SUGRA IIB su $\rfour \times \hatt X_6$, \; $\leff$ nota
+
+		\vfill
+
+		``Decompattifichiamo'':\footcite{MZ} \quad \quad ($\vol X_6 \rightarrow \infty$)
+
+		\vspace{-10pt}
+		\begin{figure}[h!]\centering
+		\def\svgscale{0.25}
+		\import{images/}{egg_decompact.pdf_tex}
+		\end{figure}
+
+		\vspace{-10pt}
+		Limite rigido: $M_P^2 \sim \vol X_6 \rightarrow \infty$. Rimangono solo i moduli come campi dinamici.
+
+
+\end{frame}
 
 \begin{frame}
 \begin{tikzpicture}[remember picture,overlay]
@@ -512,9 +542,10 @@
 	\end{equation}
 
 	\begin{align}
-		t := |\zeta|^2 e^{k^L(y^L) + k^R(y^R)} 
+		t := |\zeta|^2 e^{k^L(y^L) + k^R(y^R)}
 		\label{}
 	\end{align}
+
 \end{frame}
 
 
@@ -523,7 +554,7 @@
 	Check nontriviale: simmetrie della teoria di campo devono ricomparire nella teoria efficace. 
 	\begin{itemize}
 		\vfill\item Gruppo superconforme: spontaneamente rotto in generale, verifichiamo l'invarianza di $\leff$ sotto un'implementazione nonlineare.
-		\vfill\item La SCFT ha una simmetria di flavour $SU(2)\times SU(2)$. Nella HEFT: è il gruppo di isometria di $\ess^2 \times \ess^2$.
+		\vfill\item La SCFT ha una simmetria di flavour $SU(2)\times SU(2)$. Implementato nella HEFT.
 		\vfill\item Tre simmetrie $U(1)$, di cui due anomale. Presenti nella HEFT, le anomale rotte non perturbativamente.
 	\end{itemize}
 \end{frame}
